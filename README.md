@@ -33,14 +33,34 @@ Example:
 }
 ```
 
-Install MongoDB:  
+### Installation
+
+You can already prepare for the course by downloading and installing MongoDB Community Server.  
+https://www.mongodb.com/download-center/community
+
+If you are on a Mac and you already have homebrew installed, you can install it from the command line. That's a bit easier:  
+https://www.code2bits.com/how-to-install-mongodb-on-macos-using-homebrew/
+
+For all others, here's the installation guide:  
+Mac: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/  
+Windows: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/  
+Linux: https://docs.mongodb.com/manual/administration/install-on-linux/  
+
+We will also need node and npm. If you don't have it already, please install it. Here are the installation instructions:  
+Windows: https://blog.teamtreehouse.com/install-node-js-npm-windows  
+Mac: https://blog.teamtreehouse.com/install-node-js-npm-mac  
+Linux: https://blog.teamtreehouse.com/install-node-js-npm-linux  
+
+
+#### Install MongoDB on Mac via Homebrew:  
 ```
 brew tap mongodb/brew
 ```
 ```
 brew install mongodb-community@4.0
 ```
-Run MongoDB:
+
+### Run MongoDB:
 ```
 mongod --config /usr/local/etc/mongod.conf
 ```
@@ -49,7 +69,7 @@ In new terminal:
 mongo
 ```
 
-### MongoDB (Command Line)
+## MongoDB (Command Line)
 
 Create Collections:  
 > If the collection does not currently exist, insert operations will create the collection.
