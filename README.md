@@ -20,6 +20,10 @@ What is a database
 - a software for saving data in an ordered way
 - has a query language to retrieve data
 
+### Classification
+
+![Classification](/classification-databases.jpg)
+
 ### Document-based Databases
 
 What does document-based mean?  
@@ -70,6 +74,8 @@ In new terminal:
 ```
 mongo
 ```
+
+![MongoDB](CRUD-and-mongodb.jpg)
 
 ### Documentation
 
