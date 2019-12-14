@@ -77,6 +77,13 @@ MongoDB: https://docs.mongodb.com/manual/introduction/
 
 ## MongoDB (Shell)
 
+Start the mongo shell:
+```
+mongo
+```
+- You'll see whether you are connected
+- You are *inside* the Command Line Interface: `>`
+
 Show the database you are on:
 ```
 db
