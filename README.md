@@ -5,7 +5,9 @@ Example application for the databases course.
 ## Outline
 
 - Introduction
-- MongoDB (Command Line)
+  - Document-based Databases
+  - MongoDB installation
+- MongoDB (Shell)
   - read
   - write
   - update
@@ -69,7 +71,21 @@ In new terminal:
 mongo
 ```
 
-## MongoDB (Command Line)
+### Documentation
+
+MongoDB: https://docs.mongodb.com/manual/introduction/
+
+## MongoDB (Shell)
+
+Show the database you are on:
+```
+db
+```
+
+Switch to a new database:
+```
+use examples
+```
 
 Create Collections:  
 > If the collection does not currently exist, insert operations will create the collection.
