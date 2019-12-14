@@ -197,6 +197,12 @@ Delete: https://docs.mongodb.com/manual/tutorial/remove-documents/
 
 ## MongoDB with Node
 
+### Installation
+
+Install Postman App: https://www.getpostman.com/
+
+Postman is a tool that we will use to check the CRUD operations of the API that we are going to build.
+
 Check if node is installed:
 ```
 node -v
@@ -233,6 +239,8 @@ cd example
 ```
 npm install
 ```
+
+### Web Application with Database Tutorial
 
 In `app.js`, we need the initialization of the express/vertex app with the configuration with the database in it.
 Remove line 4 and uncomment the setup below.
@@ -286,7 +294,7 @@ For the string values, we can say it should trim it: `trim:true`.
 
 Create routes:  
 
-We need routes, because we want to create a REST api (remember Postman).  
+We need routes, because we want to create a REST api.  
 We want to implement CRUD.  
 One route per operation: `GET`, `POST`, `UPDATE`, `DELETE`.  
 These are also called **endpoints**.
@@ -518,6 +526,24 @@ Student.findByIdAndRemove(studentId)
   })
 ```
 
+### Conclusions, Discussion
+
+What makes it so different from relational databases?
+
+- no Schema needed
+- objects can all be different from another
+- no empty fields
+
+Why do we choose it over SQL databases?
+
+- much faster for most operations
+- more scalable
+- we can process JSON directly in JavaScript 😏
+- good for: dealing with a huge load of data
+- not so good for: dealing with a lot of relations
+
 ## Resources
 
 MongoDB Cheat Sheet: https://gist.github.com/bradtraversy/f407d642bdc3b31681bc7e56d95485b6
+
+Turbo Project Tutorial: https://www.youtube.com/watch?v=4yqu8YF29cU
